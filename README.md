@@ -5,7 +5,7 @@ The objective of the project is to build a RPC­based proxy server. Remote proce
 
 README:
 
-** Compilation of server and client **
+## Compilation of server and client ##
 
 
 To compile browse to the gen-cpp folder and make using following command:
@@ -15,7 +15,7 @@ To compile browse to the gen-cpp folder and make using following command:
 This creates all th object files and the executable for the server and client.
 
 
-** Run Server and Client: **
+### Run Server and Client: ###
 
 
 1. Run client by following command:
@@ -36,7 +36,7 @@ The work laod files are:
 	b) repeatedWorkload.txt
 
 
-** Evaluation metrics: **
+### Evaluation metrics: ###
 
 1. Hit ratio is printed on server command window.
 
