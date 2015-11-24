@@ -5,7 +5,7 @@ The objective of the project is to build a RPC­based proxy server. Remote proce
 
 README:
 
-* Compilation of server and client *
+** Compilation of server and client **
 
 
 To compile browse to the gen-cpp folder and make using following command:
@@ -15,17 +15,18 @@ To compile browse to the gen-cpp folder and make using following command:
 This creates all th object files and the executable for the server and client.
 
 
-* Run Server and Client: *
+** Run Server and Client: **
 
 
 1. Run client by following command:
+
 	./rpc_server
 
 2. To run client with remote server, the ip has to be changed in the RPCServer_client.cpp. Apart from that, the client is run as following:
 
 	./RPC_client <workload_file.txt>
 
-	where the workload file is having all the URLs for the webpages.
+where the workload file is having all the URLs for the webpages.
 
 
 We have added two work load file and generation script also.
@@ -35,7 +36,7 @@ The work laod files are:
 	b) repeatedWorkload.txt
 
 
-* Evaluation metrics: *
+** Evaluation metrics: **
 
 1. Hit ratio is printed on server command window.
 
