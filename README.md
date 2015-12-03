@@ -1,4 +1,4 @@
-# GT-RPC: Remote Procedure Call #
+# GT-RPC-based-web-proxy-server#
 
 The objective of the project is to build a RPC­based proxy server. Remote procedure call is the communication between client and server connected through network. The functionality of RPC server is to get a URL from the client through a RPC call and return the text response back to the client. The major goal of the project is to implement various cache strategies on the RPC server for caching the URL response and experiment with them. 
 
